@@ -12,9 +12,9 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 const contactForm = document.querySelector(".contact-form");
 if (contactForm) {
   contactForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-    alert(
-      "Thank you for your message! This is a live form, I have received your message, I will respond within 24-48 hours of receipt",
+   // e.preventDefault();
+    //alert(
+     // "Thank you for your message! This is a live form, I have received your message, I will respond within 24-48 hours of receipt",
     );
     contactForm.reset();
   });
